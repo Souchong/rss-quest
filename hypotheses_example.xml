@@ -164,49 +164,29 @@
         </item>
 <!-- Hypothèse SUB ROSA - reformatée -->
 <item>
-    <guid>hyp-2025-007</guid>
-    <title>Hypothèse: SUB ROSA - Intersection La Roussais validée</title>
-    <description>Point d'intersection géométrique identifié à La Roussais, Trévron (22). Croisement entre l'axe MSM-Lorient (nouvelle garde) et la lame Valencia-Loch Ness. Validation par calcul géométrique précis et découverte d'un monument physique (buste de cerf) au point médian de Kernué.</description>
-    <impacts>Identification du point d'intersection géométrique. Validation terrain avec monument. Corrélation voie romaine historique.</impacts>
-    <pubDate>Fri, 27 Dec 2024 12:00:00 GMT</pubDate>
+    <guid>hyp-2025-008</guid>
+    <title>Hypothèse: Symbole géométrique dans L2C1</title>
+    <description>Découverte d'un triangle d'or dans l'enluminure L2C1 avec proportions phi (1.618)</description>
+    <impacts>Identification proportions sacrées. Lien avec architecture gothique.</impacts>
+    <pubDate>Sat, 28 Dec 2024 10:00:00 GMT</pubDate>
 
-    <exk:enigme_id>SUB_ROSA</exk:enigme_id>
-    <exk:confidence>0.92</exk:confidence>
+    <exk:enigme_id>L2C1</exk:enigme_id>
+    <exk:confidence>0.70</exk:confidence>
 
     <exk:elements>
-        <exk:element id="point_intersection">
-            <exk:field name="type">Location</exk:field>
-            <exk:field name="nom">La Roussais</exk:field>
-            <exk:field name="commune">Trévron</exk:field>
-            <exk:field name="departement">Côtes-d'Armor</exk:field>
-            <exk:field name="latitude" type="number">48.3456</exk:field>
-            <exk:field name="longitude" type="number">-2.1234</exk:field>
-            <exk:field name="altitude" type="number">87</exk:field>
-            <exk:field name="precision_metres" type="number">15</exk:field>
-            <exk:field name="confidence" type="number">0.95</exk:field>
-            <exk:field name="validation">Intersection géométrique axe MSM-Lorient / Lame Valencia-Loch Ness</exk:field>
-            <exk:field name="methode">Calcul vectoriel QGIS + validation terrain</exk:field>
+        <exk:element id="triangle_or">
+            <exk:field name="type">Géométrie sacrée</exk:field>
+            <exk:field name="ratio" type="number">1.618</exk:field>
+            <exk:field name="nom">Triangle d'or</exk:field>
+            <exk:field name="confidence" type="number">0.70</exk:field>
+            <exk:field name="image_url">https://exemple.com/images/triangle-or-l2c1.jpg</exk:field>
         </exk:element>
 
-        <exk:element id="route_historique">
-            <exk:field name="type">Voie romaine</exk:field>
-            <exk:field name="nom">Voie romaine Alet-Nantes</exk:field>
-            <exk:field name="periode">Époque gallo-romaine (Ier-IVe siècle)</exk:field>
-            <exk:field name="trace">Passe par La Roussais, direction N-S</exk:field>
-            <exk:field name="pertinence">Nouvelle garde = nouveau chemin historique</exk:field>
-            <exk:field name="confidence" type="number">0.88</exk:field>
-        </exk:element>
-
-        <exk:element id="validation_geometrique">
-            <exk:field name="type">Calcul</exk:field>
-            <exk:field name="angle_intersection" type="number">127.4</exk:field>
-            <exk:field name="distance_msm_point" type="number">2847</exk:field>
-            <exk:field name="distance_lorient_point" type="number">4523</exk:field>
-            <exk:field name="unite">mètres</exk:field>
-            <exk:field name="azimut_msm_lorient">87.3°</exk:field>
-            <exk:field name="azimut_valencia_loch">359.7°</exk:field>
-            <exk:field name="confidence" type="number">0.98</exk:field>
-            <exk:field name="validation">Monument cerf Kernué au point médian de l'axe</exk:field>
+        <exk:element id="validation_visuelle">
+            <exk:field name="type">Analyse image</exk:field>
+            <exk:field name="outil">GIMP + mesures pixel</exk:field>
+            <exk:field name="schema_url">https://exemple.com/schemas/analyse-geometrique.svg</exk:field>
+            <exk:field name="photo_terrain_url">https://exemple.com/photos/cathedrale-chartres.jpg</exk:field>
         </exk:element>
     </exk:elements>
 </item>
