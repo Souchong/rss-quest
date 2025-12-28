@@ -162,31 +162,25 @@
                 </exk:element>
             </exk:elements>
         </item>
-<!-- Hypothèse SUB ROSA - reformatée -->
 <item>
-    <guid>hyp-2025-008</guid>
-    <title>Hypothèse: Symbole géométrique dans L2C1</title>
-    <description>Découverte d'un triangle d'or dans l'enluminure L2C1 avec proportions phi (1.618)</description>
-    <impacts>Identification proportions sacrées. Lien avec architecture gothique.</impacts>
-    <pubDate>Sat, 28 Dec 2024 10:00:00 GMT</pubDate>
+    <guid>hyp-2025-004</guid>
+    <title>Hypothèse: Test avec images embedded</title>
+    <description>Cette hypothèse contient deux images encodées en base64 pour tester le carrousel</description>
+    <impacts>Permet de valider l'affichage de plusieurs médias dans le volet gauche et le changement d'image au clic</impacts>
+    <pubDate>Sat, 28 Dec 2024 18:30:00 GMT</pubDate>
 
-    <exk:enigme_id>L2C1</exk:enigme_id>
-    <exk:confidence>0.70</exk:confidence>
+    <exk:enigme_id>MAPPA_MUNDI</exk:enigme_id>
+    <exk:confidence>0.90</exk:confidence>
+
+    <exk:medias>
+        <exk:media type="image">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAFUlEQVR42mP8z8BQz0AEYBxVSF+FABJADveWkH6oAAAAAElFTkSuQmCC</exk:media>
+        <exk:media type="image">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAFUlEQVR42mNk+M9Qz0AEYBxVSF+FAAhKDveksOjmAAAAAElFTkSuQmCC</exk:media>
+    </exk:medias>
 
     <exk:elements>
-        <exk:element id="triangle_or">
-            <exk:field name="type">Géométrie sacrée</exk:field>
-            <exk:field name="ratio" type="number">1.618</exk:field>
-            <exk:field name="nom">Triangle d'or</exk:field>
-            <exk:field name="confidence" type="number">0.70</exk:field>
-            <exk:field name="image_url">https://exemple.com/images/triangle-or-l2c1.jpg</exk:field>
-        </exk:element>
-
-        <exk:element id="validation_visuelle">
-            <exk:field name="type">Analyse image</exk:field>
-            <exk:field name="outil">GIMP + mesures pixel</exk:field>
-            <exk:field name="schema_url">https://exemple.com/schemas/analyse-geometrique.svg</exk:field>
-            <exk:field name="photo_terrain_url">https://exemple.com/photos/cathedrale-chartres.jpg</exk:field>
+        <exk:element id="test_carrousel">
+            <exk:field name="description">Test du carrousel avec images base64</exk:field>
+            <exk:field name="status">En validation</exk:field>
         </exk:element>
     </exk:elements>
 </item>
