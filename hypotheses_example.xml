@@ -179,7 +179,7 @@
 
     <exk:elements>
         <exk:element id="test_carrousel">
-            <exk:field name="un champs">Test du carrousel avec images base66</exk:field>
+            <exk:field name="un champs">Test du carrousel avec images base67</exk:field>
             <exk:field name="status">En validation</exk:field>
         </exk:element>
     </exk:elements>
