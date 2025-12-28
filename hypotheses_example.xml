@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:exk="http://exkalibur.com/rss/1.0">
+    <channel>
+        <title>ExKalibur - Hypothèses</title>
+        <link>https://github.com/votre-repo/pr-exkalibur</link>
+        <description>Flux RSS des nouvelles hypothèses pour la chasse au trésor ExKalibur</description>
+        <language>fr</language>
+
+        <!-- Exemple d'hypothèse 1 -->
+        <item>
+            <guid>hyp-2025-001</guid>
+            <title>Hypothèse: Localisation du premier indice</title>
+            <description>Analyse du visuel E01 révèle des coordonnées GPS cachées dans l'architecture</description>
+            <pubDate>Fri, 27 Dec 2024 10:30:00 GMT</pubDate>
+
+            <exk:enigme_id>IN_PRINCIPIO</exk:enigme_id>
+            <exk:confidence>0.75</exk:confidence>
+
+            <exk:elements>
+                <exk:element id="lieu_cache">
+                    <exk:field name="type">Monument</exk:field>
+                    <exk:field name="nom">Tour Eiffel</exk:field>
+                    <exk:field name="latitude" type="number">48.858844</exk:field>
+                    <exk:field name="longitude" type="number">2.294351</exk:field>
+                    <exk:field name="confidence" type="number">0.75</exk:field>
+                    <exk:field name="source">Analyse visuelle du symbole architectural</exk:field>
+                </exk:element>
+            </exk:elements>
+        </item>
+
+        <!-- Exemple d'hypothèse 2 -->
+        <item>
+            <guid>hyp-2025-002</guid>
+            <title>Hypothèse: Déchiffrage du code couleur</title>
+            <description>Les couleurs dans l'enluminure L1C1 correspondent à un code RGB qui encode des dates</description>
+            <pubDate>Fri, 27 Dec 2024 14:15:00 GMT</pubDate>
+
+            <exk:enigme_id>L1C1</exk:enigme_id>
+            <exk:confidence>0.60</exk:confidence>
+
+            <exk:elements>
+                <exk:element id="code_couleur">
+                    <exk:field name="type">Code RGB</exk:field>
+                    <exk:field name="valeur_r" type="number">178</exk:field>
+                    <exk:field name="valeur_g" type="number">90</exk:field>
+                    <exk:field name="valeur_b" type="number">14</exk:field>
+                    <exk:field name="interpretation">Date: 17/09/14 (1714)</exk:field>
+                    <exk:field name="confidence" type="number">0.60</exk:field>
+                </exk:element>
+
+                <exk:element id="date_historique">
+                    <exk:field name="annee" type="number">1714</exk:field>
+                    <exk:field name="evenement">Signature du traité de Rastadt</exk:field>
+                    <exk:field name="pertinence">Lien avec l'histoire française</exk:field>
+                </exk:element>
+            </exk:elements>
+        </item>
+
+        <!-- Exemple d'hypothèse 3 -->
+        <item>
+            <guid>hyp-2025-003</guid>
+            <title>Hypothèse: Carte et coordonnées maritimes</title>
+            <description>La carte révèle des coordonnées maritimes pointant vers une île spécifique</description>
+            <pubDate>Fri, 27 Dec 2024 16:45:00 GMT</pubDate>
+
+            <exk:enigme_id>MAPPA_MUNDI</exk:enigme_id>
+            <exk:confidence>0.85</exk:confidence>
+
+            <exk:elements>
+                <exk:element id="coordonnees_maritimes">
+                    <exk:field name="latitude" type="number">47.2383</exk:field>
+                    <exk:field name="longitude" type="number">-1.5603</exk:field>
+                    <exk:field name="lieu">Île de Nantes</exk:field>
+                    <exk:field name="type_coordonnees">WGS84</exk:field>
+                    <exk:field name="precision_metres" type="number">50</exk:field>
+                    <exk:field name="confidence" type="number">0.85</exk:field>
+                </exk:element>
+
+                <exk:element id="point_interet">
+                    <exk:field name="nom">Machines de l'île</exk:field>
+                    <exk:field name="description">Grand éléphant mécanique</exk:field>
+                    <exk:field name="lien_enigme">Symbole de l'éléphant dans le visuel principal</exk:field>
+                    <exk:field name="verified" type="boolean">true</exk:field>
+                </exk:element>
+            </exk:elements>
+        </item>
+    </channel>
+</rss>
