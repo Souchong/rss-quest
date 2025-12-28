@@ -167,7 +167,7 @@
     <title>Hypothèse: Test avec images embedded</title>
     <description>Cette hypothèse contient deux images encodées en base64 pour tester le carrousel</description>
     <impacts>Permet de valider l'affichage de plusieurs médias dans le volet gauche et le changement d'image au clic</impacts>
-    <reload>false</reload>
+    <reload>true</reload>
     <pubDate>Sat, 28 Dec 2024 18:30:00 GMT</pubDate>
 
     <exk:enigme_id>MAPPA_MUNDI</exk:enigme_id>
